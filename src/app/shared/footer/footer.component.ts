@@ -14,7 +14,7 @@ import { environment } from 'environments/environment';
 })
 export class FooterComponent implements OnInit {
 
-  /** Mifos X version. */
+  /** YQDB version. */
   version: string = environment.version;
 
   constructor() { }
